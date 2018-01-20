@@ -4,13 +4,13 @@ $(function () {
 
     //Datetimepicker plugin
     $('.datetimepicker').bootstrapMaterialDatePicker({
-        format: 'dddd DD MMMM YYYY - HH:mm',
+        format: 'DD MM YYYY - HH:mm',
         clearButton: true,
         weekStart: 1
     });
 
     $('.datepicker').bootstrapMaterialDatePicker({
-        format: 'dddd DD MMMM YYYY',
+        format: 'DD MM YYYY',
         clearButton: true,
         weekStart: 1,
         time: false
