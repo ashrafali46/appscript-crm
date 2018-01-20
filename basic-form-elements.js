@@ -13,7 +13,8 @@ $(function () {
         format: 'DD/MM/YYYY',
         clearButton: true,
         weekStart: 1,
-        time: false
+        time: false,
+        minDate: moment()
     });
 
     $('.timepicker').bootstrapMaterialDatePicker({
