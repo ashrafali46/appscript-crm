@@ -3033,7 +3033,7 @@
     utils_hooks__hooks.defaultFormatUtc = 'YYYY-MM-DDTHH:mm:ss[Z]';
 
     function toString () {
-        return this.clone().locale('en').format('ddd MMM DD YYYY HH:mm:ss [GMT]ZZ');
+        return this.clone().locale('vi').format('ddd MMM DD YYYY HH:mm:ss [GMT]ZZ');
     }
 
     function moment_format__toISOString () {
@@ -3776,7 +3776,7 @@
         return listWeekdaysImpl(localeSorted, format, index, 'weekdaysMin');
     }
 
-    locale_locales__getSetGlobalLocale('en', {
+    locale_locales__getSetGlobalLocale('vi', {
         ordinalParse: /\d{1,2}(th|st|nd|rd)/,
         ordinal : function (number) {
             var b = number % 10,
