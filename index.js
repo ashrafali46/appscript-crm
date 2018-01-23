@@ -95,7 +95,7 @@ function initDonutChart() {
     });
 }
 
-var data = [], totalPoints = 110;
+var data = []; var totalPoints = 110;
 function getRandomData() {
     if (data.length > 0) data = data.slice(1);
 
