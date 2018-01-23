@@ -19,6 +19,7 @@ $(function () {
 
     $('.timepicker').bootstrapMaterialDatePicker({
         format: 'HH:mm',
+        use24hours: true,
         clearButton: true,
         date: false
     });
