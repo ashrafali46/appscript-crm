@@ -243,8 +243,8 @@
       paletteCanvas.width = 256;
       paletteCanvas.height = 1;
 
-      paletteCtx.width = 256;
-      paletteCtx.height = 1;
+      //paletteCtx.width = 256;
+      //paletteCtx.height = 1;
 
       var gradient = paletteCtx.createLinearGradient(0, 0, 256, 1);
       for (var key in gradientConfig) {
@@ -419,9 +419,6 @@
           var rectY = y - radius;
           var shadowCtx = this.shadowCtx;
 
-          shadowCtx.width = 1;
-          shadowCtx.height = 1;
-
           var tpl;
           if (!this._templates[radius]) {
             this._templates[radius] = tpl = _getPointTemplate(radius, blur);
@@ -530,8 +527,8 @@
       getValueAt: function (point) {
         var value;
         var shadowCtx = this.shadowCtx;
-        shadowCtx.width = 1;
-        shadowCtx.height = 1;
+        //shadowCtx.width = 1;
+        //shadowCtx.height = 1;
         var img = shadowCtx.getImageData(point.x, point.y, 1, 1);
         var data = img.data[3];
         var max = this._max;
