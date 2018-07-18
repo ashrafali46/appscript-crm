@@ -475,8 +475,8 @@
           height = maxHeight - y;
         }
         console.log(x+","+y+","+width+","+height);
-        this.shadowCtx.width = width;
-        this.shadowCtx.height = height;
+        //this.shadowCtx.width = width;
+        // this.shadowCtx.height = height;
 
         var img = this.shadowCtx.getImageData(x, y, width, height);
         var imgData = img.data;
