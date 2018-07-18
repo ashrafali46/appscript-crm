@@ -481,7 +481,10 @@
           height = maxHeight - y;
         }
 
-        var img = this.shadowCtx.getImageData(x, y, 10, 10);
+        this.shadowCtx.width = 1;
+        this.shadowCtx.height = 1;
+
+        var img = this.shadowCtx.getImageData(x, y, width, height);
         var imgData = img.data;
         var len = imgData.length;
         var palette = this._palette;
@@ -527,6 +530,8 @@
       getValueAt: function (point) {
         var value;
         var shadowCtx = this.shadowCtx;
+        shadowCtx.width = 1;
+        shadowCtx.height = 1;
         var img = shadowCtx.getImageData(point.x, point.y, 1, 1);
         var data = img.data[3];
         var max = this._max;
