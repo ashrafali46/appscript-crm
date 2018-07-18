@@ -454,7 +454,6 @@
       },
       _colorize: function () {
         var x = this._renderBoundaries[0];
-        console.log(this);
         console.log(x);
         var y = this._renderBoundaries[1];
         console.log(y);
@@ -482,7 +481,7 @@
           height = maxHeight - y;
         }
 
-        var img = this.shadowCtx.getImageData(x, y, width, height);
+        var img = this.shadowCtx.getImageData(x, y, 10, 10);
         var imgData = img.data;
         var len = imgData.length;
         var palette = this._palette;
