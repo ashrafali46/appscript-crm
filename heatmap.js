@@ -331,6 +331,8 @@
       this._height = canvas.height = shadowCanvas.height = config.height || +(computed.height.replace(/px/, ''));
 
       this.shadowCtx = shadowCanvas.getContext('2d');
+      shadowCtx.width = 1;
+      shadowCtx.height = 1;
       this.ctx = canvas.getContext('2d');
 
       // @TODO:
