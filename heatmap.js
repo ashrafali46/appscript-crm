@@ -243,6 +243,9 @@
       paletteCanvas.width = 256;
       paletteCanvas.height = 1;
 
+      paletteCtx.width = 256;
+      paletteCtx.height = 1;
+
       var gradient = paletteCtx.createLinearGradient(0, 0, 256, 1);
       for (var key in gradientConfig) {
         gradient.addColorStop(key, gradientConfig[key]);
