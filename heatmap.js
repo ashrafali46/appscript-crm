@@ -451,14 +451,11 @@
       },
       _colorize: function () {
         var x = this._renderBoundaries[0];
-        console.log(x);
         var y = this._renderBoundaries[1];
-        console.log(y);
         var width = this._renderBoundaries[2] - x;
         var height = this._renderBoundaries[3] - y;
         var maxWidth = this._width;
-        console.log(height);
-        console.log(width);
+        console.log(x+","+y+","+width+","+height);
         var maxHeight = this._height;
         var opacity = this._opacity;
         var maxOpacity = this._maxOpacity;
@@ -477,7 +474,7 @@
         if (y + height > maxHeight) {
           height = maxHeight - y;
         }
-
+        console.log(x+","+y+","+width+","+height);
         this.shadowCtx.width = width;
         this.shadowCtx.height = height;
 
