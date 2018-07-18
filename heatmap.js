@@ -422,7 +422,6 @@
           shadowCtx.width = 1;
           shadowCtx.height = 1;
 
-
           var tpl;
           if (!this._templates[radius]) {
             this._templates[radius] = tpl = _getPointTemplate(radius, blur);
@@ -455,10 +454,15 @@
       },
       _colorize: function () {
         var x = this._renderBoundaries[0];
+        console.log(this);
+        console.log(x);
         var y = this._renderBoundaries[1];
+        console.log(y);
         var width = this._renderBoundaries[2] - x;
         var height = this._renderBoundaries[3] - y;
         var maxWidth = this._width;
+        console.log(height);
+        console.log(width);
         var maxHeight = this._height;
         var opacity = this._opacity;
         var maxOpacity = this._maxOpacity;
