@@ -666,47 +666,6 @@ blockquote {
   height: 50px;
 }
 
-.c-client-logo.fcv {
-  background-image: url('../images/FC1.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.c-client-logo.coke {
-  background-image: url('../images/coke-trans.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.c-client-logo.pepsi {
-  background-image: url('../images/pepsi.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.c-client-logo.grab {
-  background-image: url('../images/grab.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.c-client-logo.client-5 {
-  background-image: url('../images/FT.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.c-client-logo.client-6 {
-  background-image: url('../images/dragon_capital.png');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .u-pad-0 {
   padding: 0px;
@@ -762,47 +721,10 @@ blockquote {
   height: 64px;
 }
 
-.c-client-logo-sign-up.fcv {
-  background-image: url('../images/FC1.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
-.c-client-logo-sign-up.abbott {
-  background-image: url('../images/abbott-white.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
-.c-client-logo-sign-up.wraproll {
-  background-image: url('../images/wraproll.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
-.c-client-logo-sign-up.smpf {
-  background-image: url('../images/San-Miguel-Pure-Food---white.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
-.c-client-logo-sign-up.marico {
-  background-image: url('../images/marico-white.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.c-client-logo-sign-up.vivid {
-  background-image: url('../images/vividAd_gray.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 .l-col-standard {
   padding-right: 24px;
@@ -839,23 +761,6 @@ blockquote {
   right: 0px;
   padding-top: 40px;
   padding-bottom: 40px;
-}
-
-.c-header-logo {
-  width: 150px;
-  height: 50px;
-  background-image: url('../images/DL---Powered-by-LogoArtboard-2-copy3x.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.c-heat-map-img {
-  height: 280px;
-  background-image: url('../images/dashboard-image-san-miguel---pack-1---heatmap_03.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .container-2 {
@@ -973,14 +878,6 @@ blockquote {
 
 .o-heatmap-img-wrapper-1 {
   width: 28%;
-}
-
-.c-heat-map-img-1 {
-  height: 280px;
-  background-image: url('../images/dashboard-image-san-miguel---pack-1---heatmap_03.png');
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .o-cmt-wrapper-1 {
@@ -1245,12 +1142,7 @@ blockquote {
     padding-top: 24px;
     padding-bottom: 24px;
   }
-  .c-header-logo {
-    background-image: url('../images/DL---Powered-by-LogoArtboard-2-copy3x.png');
-    background-position: 50% 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+
   .c-heatmap-block {
     margin-bottom: 24px;
   }
